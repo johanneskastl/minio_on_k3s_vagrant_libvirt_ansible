@@ -63,6 +63,8 @@
             name: 'minio-vagrant-libvirt'
             configSecret:
               existingSecret: true
+              accessKey: null
+              secretKey: null
             configuration:
               name: 'minio-vagrant-libvirt-env-configuration'
             pools:
